@@ -1,0 +1,113 @@
+/* Whole page */
+body {
+    background-color: rgb(182, 117, 153);
+}
+/*Header*/
+header {
+    background-color: rgb(120, 129, 158);
+    border-style: ridge;
+    height: 350px;
+    display: flex;
+}
+h1 {
+    color : purple;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 70px;
+    margin: 40px;
+    padding: 10px;
+}
+.hobbies-photo {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+}
+
+/*Body*/
+main{
+  display: flex;
+}
+/*Explore*/
+#explore-title {
+  text-align: center;
+}
+#intro-explore {
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+#hob-explore {
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+#skill-explore {
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+#spot-explore {
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+
+/*Footer*/
+footer {
+  margin-top: 10px;
+  background-color: rgb(182, 117, 153);
+  border-style: ridge;
+  height: 350px;
+  display: flex;
+}
+.copyright-info {
+  text-align: center;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.table-hobbies {
+  margin: 10px;
+  padding: 10px;
+}
+.table-interests {
+  margin: 10px;
+  padding: 10px;
+}
+#music-panel {
+  display: block;
+  border-style: ridge;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.photo-collage {
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 520px;
+}
+.kbbq-pic {
+  width: 300px;
+  height: auto;
+  display:block;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.cs2-logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.gym-logo {
+  width: 250px;
+  height: auto;
+  display:block;
+  margin-left: 50;
+  margin-top: 10px;
+}

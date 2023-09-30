@@ -1,0 +1,88 @@
+/* Whole page */
+body {
+    background-color: rgb(182, 117, 153);
+}
+
+/* Header */
+header {
+    background-color: rgb(120, 129, 158);
+    border-style: ridge;
+    height: 400px;
+    display: block;
+}
+h1 {
+    color : rgb(128, 19, 0);
+    text-align: center;
+    font-family: Calibri;
+    font-size: 100px;
+    margin: 100px;
+    padding: 1px;
+}
+
+
+/*Main*/
+main{
+  display: block;
+}
+.main-text {
+  border-style: ridge;
+  width: 700px;
+  margin: 20px;
+  padding: 10px;
+  margin-top: -250px;
+  font-size: 20px;
+}
+.nurse-image {
+  width: 400px;
+  height: auto;
+  margin: 1200px;
+  padding: 10px;
+  margin-top: -450px;
+}
+
+/*Explore*/
+explore{
+  margin-top: 10px;
+  margin-right: 40px;
+  padding: 10px;
+  border-style: dotted;
+  width: 200px;
+}
+#explore-title {
+    text-align: center;
+}
+#intro-explore {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#hob-explore {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#skill-explore {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#spot-explore {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+  /*Footer*/
+  footer {
+    margin-top: 10px;
+    background-color: rgb(182, 117, 153);
+    border-style: ridge;
+    height: 350px;
+    display: flex;
+  }
+  .copyright-info {
+    text-align: center;
+    display: block; /*makes it into a block format*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }

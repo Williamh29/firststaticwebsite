@@ -1,0 +1,124 @@
+/* Whole page */
+body {
+    background-color: rgb(182, 117, 153);
+  }
+  
+  /* Header */
+  header {
+    background-color: rgb(120, 129, 158);
+    border-style: ridge;
+    height: 350px;
+    display: flex;
+  }
+  
+  h1 {
+    color: purple;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 100px;
+    margin: 100px;
+    padding: 10px;
+  }
+  .nyc-night {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+  }
+  
+  /*Main*/
+  main {
+    display: flex;
+  }
+  .main-body {
+    margin-top: 10px;
+    border-style: ridge;
+    width: 1000px;
+  }
+  #intro-para {
+    font-size: 20px;
+    margin: 20px;
+  }
+  dt {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+    color: #5f0707;
+  }
+  dd {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .spotpic {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #short {
+    font-size: 30px;
+    margin: 10px;
+  }
+  input {
+    margin: 20px;
+  }
+  label {
+    font-size: 20px;
+  }
+  
+  /*Navigation*/
+  nav{
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 10px;
+    border-style: ridge;
+    width: 200px;
+  }
+  #nav-title {
+    text-align: center;
+  }
+  #intro-nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  #hob-nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  #skill-nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  #spot-nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .mag-img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /*Footer*/
+  footer {
+    margin-top: 10px;
+    background-color: rgb(182, 117, 153);
+    border-style: ridge;
+    height: 350px;
+    display: flex;
+  }
+  .copyright-info {
+    text-align: center;
+    display: block; /*makes it into a block format*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
